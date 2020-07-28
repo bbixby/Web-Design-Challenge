@@ -1,5 +1,11 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+## Solution
+
+https://bbixby.github.io/Web-Design-Challenge/
+
+Website created with Bootstrap CSS to present earlier python-api-challenge analysis. Generated a random set of latitude and longitudes using Numpy, found the nearest cities using CitiPY, then pulled weather data via Open Weather Map API. Analyzed with Pandas and Matplotlib.
+
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
@@ -89,7 +95,7 @@ Large screen:
 Small screen:
 
 ![Landing page small screen](Images/landing-sm.png)
-￼
+ 
 
 #### <a id="comparisons-page"></a>Comparisons page
 
