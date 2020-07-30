@@ -45,58 +45,67 @@
   </div>
 
 <!--Page content-->
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-8">
-        <h3 class="title">Summary: Latitude  vs. X</h3>
-        <hr>
-        <br>
-      </div>
-      <div class="col-sm-4">
-        <h3 class="title">Visualizations</h3>
-        <hr>
-        <br>
-      </div>
-          <div class="row">
-            <div class="col-sm-8">
+      <div class="col-md-8 col-sm-12">
+        <div class="box">
+          <div class="header">
+            <h3 class="title">Summary: Latitude  vs. X</h3>
+            <hr>
+          </div>
+          <div class="content">
               <a href="maxtemp.html">
               <img src="assets/images/Latitude vs Temperature on 2020-06-20.png" alt="Latitude vs Max Temp" style="width:100%">
               </a>
               <p>Use Python to generate 500 random cities, pull their weather data via Open Weather Map API, then graph the resulting
-                temperatures, wind speeds, humidities, & cloudiness.
-              </p>
-                  <p></p>Here are the resulting graphs plotting all against latitude.</p>
-            </div>
+                temperatures, wind speeds, humidities, & cloudiness.</p>
+              <p></p>Here are the resulting graphs plotting all against latitude.</p>
+          </div>
+        </div>
+      </div>
    
 
 <!--Plot shortcut content-->
-            <div class="col-sm-2">
-              <br>
-              <br>
+    <div class="col-md-4 col-sm-12">
+      <div class="box">
+        <div class="header">
+          <h3 class="title">Visualizations</h3>
+          <hr>
+        </div>
+
+        <div class="content-fluid">
+          <div>
+            <div class="row padding">
+              <div class="col-6">
                <a href="maxtemp.html">
                 <img class="panel" src="assets/images/Latitude vs Temperature on 2020-06-20.png" alt="Max Temperature Plot" style="width:100%">
               </a>
+              </div>
+              <div class="col-6">
               <a href="windspeed.html">
                 <img class="panel" src="assets/images/Latitude vs Windspeed on 2020-06-20.png" alt="Wind Speed Plot" style="width:100%">
               </a>
-            </div>
-            <div class="col-sm-2"> 
-              <br>
-              <br>
-
+              </div>
+              <div class="col-6">
               <a href="humidity.html">
                 <img class="panel" src="assets/images/Latitude vs Humidity on 2020-06-20.png" alt="Humidity Plot" style="width:100%">
               </a>
+              </div>
+              <div class="col-6">
               <a href="cloudiness.html">
                 <img class="panel" src="assets/images/Latitude vs Cloudiness on 2020-06-20.png" alt="Cloudiness Plot" style="width:100%">
               </a>
-            
+              </div>
+            </div>
+          </div>
           
         </div>
 
-  </div>  
+      </div>  
+    </div>
+  </div>
+  </div>
 </div>
-
 
 
 <!-- Footer Section -->
